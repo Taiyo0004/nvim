@@ -33,8 +33,28 @@ cd personal
 git clone https://github.com/ThePrimeagen/harpoon.git
 ```
 
-now this step is for those whose lua version is below 5:   
+now this step is for those whose lua version is below 5 and don't have lua rocks:   
 ```bash
 sudo apt update
-sudo apt install lua5.4 liblua5.4-dev
+sudo apt install lua5.4 liblua5.4-dev -y
+sudo apt install luarocks -y
 ```
+now this is the next step installing node and npm so if you have that you don't have to do this step:   
+```bash
+sudo apt update
+sudo apt upgrade -y
+sudo apt install nodejs npm
+```
+
+now this is stupid linux system come python3 install but not venv so if you don't have that so do this step:   
+```bash
+sudo apt update
+sudo apt install python3-venv -y
+```
+
+and even after this you get this error search it online google it and get gud.
+
+
+
+
+______________________________________________________________________________________ThankYOU________________________________________________________________
