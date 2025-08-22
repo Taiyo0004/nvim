@@ -8,4 +8,9 @@ sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip neovim  
 
 then:  
-git clone https://github.com/Faith1406/nvim.git
+In terminal:
+`
+cd ~/.config
+git clone https://github.com/Taiyo0004/nvim.git
+
+`
