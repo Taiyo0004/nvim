@@ -3,9 +3,11 @@ This is my neovim config, don't touch it
 
 
 Leaving that aside first do:  
+```bash
 sudo add-apt-repository ppa:neovim-ppa/unstable -y  
 sudo apt update  
 sudo apt install make gcc ripgrep unzip git xclip neovim  
+```
 
 then:  
 In terminal:  
